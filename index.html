@@ -3,13 +3,21 @@
 <title>Welcome to rogeruser1.ru!</title>
 </head>
 <body>
-<h1>Success! The rogeruser1.ru server is working!</h1>
-<header><div class="main"><div class="container"></div></div></header>
-.container {
-        width: 100%
-        max-width: 1024px;
-        padding: 0 15px;
-        margin: 0 auto
+<form align="center" method="post" action="/login/">
+    <table>
+        <tr>
+            <td><label align="center" for="loginField">Email</label></td>
+            <td><input id="loginField" type="text" name="login"></td>
+        </tr>
+        <tr>
+            <td><label for="passwordField">Password</label></td>
+            <td><input id="passwordField" type="password" name="password"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center"><input type="submit" value="Login"></t$
+        </tr>
+    </table>
+</form>
 <footer></footer>
 </body>
 </html>
